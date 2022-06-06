@@ -1,0 +1,57 @@
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'); */
+@import url('./fontawesome-free-6.1.1-web/css/all.min.css');
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+}
+
+a {
+    text-decoration: none;
+    color: #5C7FB8
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.pulse {
+    animation: pulse 0.5s ease-out alternate infinite running;
+    -webkit-animation: pulse 0.5s ease-out alternate infinite running;
+}
+
+.rotate-in-center {
+    animation: rotate-in-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    -webkit-animation: rotate-in-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(.7);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+@keyframes rotate-in-center {
+    0% {
+        transform: rotate(-360deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotate(0);
+        opacity: 1;
+    }
+}

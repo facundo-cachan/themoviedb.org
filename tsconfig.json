@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "types": ["node", "jest", "@testing-library/jest-dom"],
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "api": ["api"],
+      "components": ["components"],
+      "context": ["context"],
+      "lib": ["lib"],
+      "pages": ["pages"],
+      "utils": ["utils"],
+      "styles": ["styles"]
+    }
+  },
+  "include": ["next-env.d.ts", "./pages/**/*.(ts|tsx)$"],
+  "exclude": ["node_modules", "__tests__/**/*"]
+}
