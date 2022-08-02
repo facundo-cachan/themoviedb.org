@@ -46,7 +46,7 @@
     "imagesloaded": "^5.0.0",
     "locomotive-scroll": "^4.1.4",
     "next": "12.1.6",
-    "next-auth": "4.3.4",
+    "next-auth": "4.10.3",
     "parcel": "^2.6.0",
     "react": "18.1.0",
     "react-dom": "18.1.0",
